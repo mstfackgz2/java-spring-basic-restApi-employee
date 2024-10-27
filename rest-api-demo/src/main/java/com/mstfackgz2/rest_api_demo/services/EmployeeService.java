@@ -37,7 +37,6 @@ public class EmployeeService {
 	}
 
 	public boolean deleteEmployee(String id) {
-		// TODO Auto-generated method stub
 		return employeeRepository.deleteEmployee(id);
 	}
 	
